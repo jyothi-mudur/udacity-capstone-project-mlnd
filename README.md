@@ -1,27 +1,27 @@
-#Machine Learning Engineer Nanodegree
-##Capstone Project 
-###Image Detection for Facial Attribute - Smiling
+# Machine Learning Engineer Nanodegree
+## Capstone Project 
+### Image Detection for Facial Attribute - Smiling
 
-Dataset: 
+#### Dataset: 
 CelibA dataset is used for this project. 
 http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 However, for this project, it is downloaded (1.4GB) from the Kaggle website:
 https://www.kaggle.com/jessicali9530/celeba-dataset
 The size of the subset of this dataset used in this project is 99.6MB.
 
-System used:
+#### System used:
 Windows 10 machine with 1.8GHz, 2401 Mhz, 2 Cores, 4 logical Processors
 and  8 GB RAM
 
-Software and Libraries used:
+#### Software and Libraries used:
 Python version 3.7.1 with Anaconda.
 TensorFlow (CPU-only): https://www.tensorflow.org/install
-Main Libraries:
-numpy
-pandas
-Keras
-tensorflow
-matplotlib
+##### Main Libraries:
+- numpy
+- pandas
+- Keras
+- tensorflow
+- matplotlib
 
 
 In order to replicate this project, the dataset needs to be downloaded from the Kaggle website: https://www.kaggle.com/jessicali9530/celeba-dataset
