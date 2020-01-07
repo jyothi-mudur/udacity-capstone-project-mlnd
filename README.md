@@ -1,8 +1,6 @@
-# udacity-capstone-project-mlnd
-
-Machine Learning Engineer Nanodegree
-Capstone Project 
-Image Detection for Facial Attribute - Smiling
+#Machine Learning Engineer Nanodegree
+##Capstone Project 
+###Image Detection for Facial Attribute - Smiling
 
 Dataset: 
 CelibA dataset is used for this project. 
@@ -28,6 +26,7 @@ matplotlib
 
 In order to replicate this project, the dataset needs to be downloaded from the Kaggle website: https://www.kaggle.com/jessicali9530/celeba-dataset
 The folder structure is as follows:
+```
 capstone_project
       |---CelibA
       |        |---img_align_celeba
@@ -57,15 +56,15 @@ capstone_project
       |---transfer_learning_VGG19-SGD.ipynb
       |---VGG19-Transfer-BottleNeck-Aug.ipynb
       |---proposal.pdf
-
+```
 Notes:
 1. CelibA folder contains the dataset downloaded from Kaggle.
 2. The cropped and aligned jpg images are available in the folder img_align_celeba
 3. Input and subsequent folders (except for saved models) are created and the subset images are copied accordingly as described in data_prep.ipynb
-4. benchmark_model.ipynb describes the benchmark model
-5. benchmark_data_aug.ipynb describes the benchmark model with data augmentation as an improvement.
-6. transfer_learning_VGG19-SGD.ipynb describes the model considering VGG19 compiled with SGD optimizer instead of rmsprop.
-7. VGG19-Transfer-BottleNeck-Aug.ipynb describes the final model (solution) which gives an accuracy of 90.64%
+4. The files under saved_models are created by running the appropriate notebooks.
+5. benchmark_model.ipynb describes the benchmark model
+6. benchmark_data_aug.ipynb describes the benchmark model with data augmentation as an improvement.
+7. transfer_learning_VGG19-SGD.ipynb describes the model considering VGG19 compiled with SGD optimizer instead of rmsprop.
+8. VGG19-Transfer-BottleNeck-Aug.ipynb describes the final model (solution) which gives an accuracy of 90.64%
 
 Due to the large file sizes, all the required files have not been uploaded. Please feel free to contact me for more details, if required.
-
