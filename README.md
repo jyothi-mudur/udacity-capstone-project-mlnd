@@ -59,6 +59,7 @@ capstone_project
       |---data_prep.ipynb
       |---transfer_learning_VGG19-SGD.ipynb
       |---VGG19-Transfer-BottleNeck-Aug.ipynb
+      |---visualizations.ipynb
       |---proposal.pdf
 ```
 Notes:
@@ -69,6 +70,7 @@ Notes:
 5. benchmark_model.ipynb describes the benchmark model
 6. benchmark_data_aug.ipynb describes the benchmark model with data augmentation as an improvement.
 7. transfer_learning_VGG19-SGD.ipynb describes the model considering VGG19 compiled with SGD optimizer instead of rmsprop.
-8. VGG19-Transfer-BottleNeck-Aug.ipynb describes the final model (solution) which gives an accuracy of 90.64%
+8. visualizations.ipynb has the visualizations for data augmentation and predictions.
+9. VGG19-Transfer-BottleNeck-Aug.ipynb describes the final model (solution) which gives an accuracy of 90.64%
 
-Due to the large file sizes, all the required files have not been uploaded. Please feel free to contact me for more details, if required.
+Due to the large file sizes, all the required files have not been uploaded. Please feel free to contact me for more details.
