@@ -89,4 +89,4 @@ Notes:
 11. visualizations.ipynb has the visualizations for data augmentation and predictions.
 12. VGG19-Transfer-BottleNeck-Aug.ipynb describes the final model (solution) which gives an accuracy of 90.64%
 
-Due to the large file sizes, all the required files have not been uploaded. Please feel free to contact me for more details.
+Due to the large file sizes, some of the required files (datasets and saved models/weights) have not been uploaded. Please feel free to contact me for more details.
