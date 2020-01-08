@@ -36,6 +36,10 @@ capstone_project
       |        |---img_align_celeba
       |        |---list_attr_celeba.csv
       |        |---list_eval_partition.csv
+      |---haarcascades
+      |---images
+      |        |---0
+      |        |---1
       |---input
       |        |---dataset
       |        |         |---test
@@ -45,15 +49,23 @@ capstone_project
       |        |         |        |---0
       |        |         |        |---1
       |        |         |---validate
-      |        |         |        |---0
-      |        |         |        |---1
+      |        |                  |---0
+      |        |                  |---1
       |        |---saved_models
-      |        |         |---aug_models.weights.best.hdf5
-      |        |         |---composite_model.hd5
-      |        |         |---transfer_models_btnk_aug.weights.best.hdf5
-      |        |         |---transfer_models_SGD.weights.best.hdf
-      |        |         |---transfer_models.weights.best.hdf5
-      |        |         |---weights.best.from_scratch.hdf5
+      |                  |---aug_models.weights.best.hdf5
+      |                  |---composite_model.hd5
+      |                  |---transfer_models_btnk_aug.weights.best.hdf5
+      |                  |---transfer_models_SGD.weights.best.hdf
+      |                  |---transfer_models.weights.best.hdf5
+      |                  |---weights.best.from_scratch.hdf5
+      |---input-3 (optional folder, for storing entire test data from CelebA)
+      |        |---dataset
+      |                  |---test
+      |                          |---0
+      |                          |---1
+      |---logs
+      |---preview (optional folder to store the mages used for data augmention visualization)
+      |---vgg19_bottleneck_features (folder to store bottleneck features)      
       |---benchmark_model.ipynb
       |---benchmark_data_aug.ipynb
       |---capstone_report.pdf
@@ -68,10 +80,13 @@ Notes:
 2. The cropped and aligned jpg images are available in the folder img_align_celeba
 3. Input and subsequent folders (except for saved models) are created and the subset images are copied accordingly as described in data_prep.ipynb
 4. The files under saved_models are created by running the appropriate notebooks.
-5. benchmark_model.ipynb describes the benchmark model
-6. benchmark_data_aug.ipynb describes the benchmark model with data augmentation as an improvement.
-7. transfer_learning_VGG19-SGD.ipynb describes the model considering VGG19 compiled with SGD optimizer instead of rmsprop.
-8. visualizations.ipynb has the visualizations for data augmentation and predictions.
-9. VGG19-Transfer-BottleNeck-Aug.ipynb describes the final model (solution) which gives an accuracy of 90.64%
+5. The folders marked as optional are required only if we need to run the visualizations in the visualizations.ipynb 
+6. logs folder stores the run logs of the epochs used for training the top model and the composite models
+7. haarcascades folder stores the xml files required to instantiate and use the face detector
+8. benchmark_model.ipynb describes the benchmark model
+9. benchmark_data_aug.ipynb describes the benchmark model with data augmentation as an improvement.
+10. transfer_learning_VGG19-SGD.ipynb describes the model considering VGG19 compiled with SGD optimizer instead of rmsprop.
+11. visualizations.ipynb has the visualizations for data augmentation and predictions.
+12. VGG19-Transfer-BottleNeck-Aug.ipynb describes the final model (solution) which gives an accuracy of 90.64%
 
 Due to the large file sizes, all the required files have not been uploaded. Please feel free to contact me for more details.
