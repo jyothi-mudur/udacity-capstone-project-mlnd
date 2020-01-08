@@ -64,7 +64,7 @@ capstone_project
       |                          |---0
       |                          |---1
       |---logs
-      |---preview (optional folder to store the mages used for data augmention visualization)
+      |---preview (optional folder to store the images used for data augmentation visualization)
       |---vgg19_bottleneck_features (folder to store bottleneck features)      
       |---benchmark_model.ipynb
       |---benchmark_data_aug.ipynb
